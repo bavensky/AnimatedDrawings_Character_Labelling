@@ -1,3 +1,3 @@
 # AnimatedDrawings_Character_Labelling
 
-![](./resources/GUI.png)<br/>
+![](./GUI.png)<br/>
