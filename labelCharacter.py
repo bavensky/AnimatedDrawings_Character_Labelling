@@ -161,8 +161,8 @@ root = tk.Tk()
 root.title("Character Labeling for Animated Drawings")
 
 # Create canvas for image display
-canvas = tk.Canvas(root, width=800, height=600)
-canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+canvas = tk.Canvas(root, width=600, height=400)
+canvas.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
 
 # Bind mouse event for drawing polygon
 canvas.bind("<Button-1>", click_event)
