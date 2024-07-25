@@ -158,7 +158,7 @@ def save_image_with_points():
 
 # Initialize Tkinter window
 root = tk.Tk()
-root.title("Image Labeling and Character Separation")
+root.title("Character Labeling for Animated Drawings")
 
 # Create canvas for image display
 canvas = tk.Canvas(root, width=800, height=600)
@@ -184,11 +184,11 @@ finish_polygon_button = tk.Button(button_frame, text="Finish Drawing Polygon", c
 finish_polygon_button.pack(pady=10)
 
 # Save points button
-save_points_button = tk.Button(button_frame, text="Save Points", command=save_points)
+save_points_button = tk.Button(button_frame, text="Save yaml", command=save_points)
 save_points_button.pack(pady=10)
 
 # Save image with points button
-save_image_button = tk.Button(button_frame, text="Save Image with Points", command=save_image_with_points)
+save_image_button = tk.Button(button_frame, text="Save joint overlay", command=save_image_with_points)
 save_image_button.pack(pady=10)
 
 label_var = tk.StringVar()
